@@ -11,6 +11,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -42,10 +44,11 @@ a {
   color: #6e6e6e;
 }
 
-.container {
+/* DONT KNOW WHAT HAPPEN  */
+/* .container {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .header {
   display: flex;
@@ -60,6 +63,7 @@ a {
 }
 
 .content {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
